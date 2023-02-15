@@ -1,0 +1,12 @@
+.footer{
+    height: 150px;
+    @include align_items;
+    justify-content: center;
+    // background-color: black;
+    a{
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        font-size: 22px;
+    }
+}

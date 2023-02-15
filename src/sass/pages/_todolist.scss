@@ -1,0 +1,56 @@
+.linethrough{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.btn_todo{
+    color: #fff;
+    background: linear-gradient(to right, rgba(206, 140, 140, 0), rgba(255,0,0,1));
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    @include responsive_4{
+        letter-spacing: 1px;
+        padding: 10px 10px;
+        border-radius: 2px;
+        
+    }
+   
+}
+ 
+
+.conetent_todo_list{
+    padding-left: 10em;
+    @include responsive_4{
+        padding-left: 2em;
+        
+    }
+   
+ }
+
+ .total_actions{
+    padding-left: 10em;
+ }
+
+@media screen and (max-width:693px) {
+    .actions_btn{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .total_actions{
+        padding-left: 10px;
+    }
+    .conetent_todo_list{
+    //    padding-left: 1px;
+       
+    }
+   
+    
+}
+.actions_btn{
+    border: none;
+}

@@ -1,0 +1,30 @@
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+@mixin space_btwn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin dir_column{
+    display: flex;
+    flex-direction: column;
+}
+@mixin flex_center{
+    display: flex;
+    justify-content: center;
+}
+@mixin align_items{
+    display: flex;
+    align-items: center;
+}
+@mixin grid-cont{
+    display: grid;
+    grid-template-columns: (repeat(3,1fr));
+    align-items: center;
+    justify-content: center;
+}
